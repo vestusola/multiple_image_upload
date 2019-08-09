@@ -2,6 +2,6 @@
 
 ```
 ## Codepen link
-[Click here](https://codepen.io/vestus-ola/pen/JgpaLq)
+[Codepen](https://codepen.io/vestus-ola/pen/JgpaLq)
 
 ```
