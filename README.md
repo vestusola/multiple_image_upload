@@ -4,4 +4,8 @@
 [Codepen](https://codepen.io/vestus-ola/pen/JgpaLq)
 
 ## Project Preview
-![Image Upload](/assets/img/image_upload.jpg?raw=true "Image UPload")
+##### Preview 1
+![Image Upload](/assets/img/image_upload.jpg?raw=true "Image Upload")
+
+##### Preview 2
+![Image Upload With Delete](/assets/img/image_upload2.jpg?raw=true "Image Upload with delete")
