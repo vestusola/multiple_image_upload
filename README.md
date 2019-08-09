@@ -1,7 +1,7 @@
 # Multiple Image Upload with Preview and Delete Button
 
 ## Codepen link
-[Codepen](https://codepen.io/vestus-ola/pen/JgpaLq)
+[Click to view on Codepen](https://codepen.io/vestus-ola/pen/JgpaLq)
 
 ## Project Preview
 ##### Preview 1
