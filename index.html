@@ -87,6 +87,9 @@
 
             var fileArr = [];
             $("#images").change(function () {
+                // check if fileArr length is greater than 0
+                if (fileArr.length > 0) fileArr = [];
+
                 $('#image_preview').html("");
                 var total_file = document.getElementById("images").files;
 
