@@ -10,7 +10,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" media="all">
 </head>
 <body>
     <div class="container-fluid" style="margin-top:10%;">
@@ -101,8 +101,7 @@
                         return false;
                     } else {
                         fileArr.push(total_file[i]);
-                        $('#image_preview').append("<div class='img-div' id='img-div" + i + "'><img src='" + URL.createObjectURL(event.target.files[i]) + "' class='img-responsive image img-thumbnail'><div class='middle'><button id='action-icon' value='img-div" + i + "' class='btn btn-danger' role='" + total_file[i].name + "'><i class='glyphicon glyphicon-trash'></i></button></div></div>");
-
+                        $('#image_preview').append("<div class='img-div' id='img-div" + i + "'><img src='" + URL.createObjectURL(event.target.files[i]) + "' class='img-responsive image img-thumbnail'><div class='middle'><button id='action-icon' value='img-div" + i + "' class='btn btn-danger' role='" + total_file[i].name + "'><i class='glyphicon glyphicon-trash'></i></button></div></div><div class='clear-fix'></div>");
                         $('#submit-btn').prop('disabled', false);
                     }
                 }
